@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.7",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "hardhat": "^2.22.9"
+  },
+  "name": "hardhat-side",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "mocha": "^10.7.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
