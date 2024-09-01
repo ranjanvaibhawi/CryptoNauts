@@ -1,4 +1,5 @@
 import React from 'react'
+import Connector from './Connector'
 const Login=(props)=> {
   return (
     <>
@@ -13,7 +14,8 @@ const Login=(props)=> {
     <h2 className="card-title">Voting has begun!</h2>
     <p>Click the button to start the voting procedure</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary bg-cyan-600 hover:bg-cyan-500" onClick = {props.connectWallet} >Vote now</button>
+      {/* <button className="btn btn-primary bg-cyan-600 hover:bg-cyan-500" onClick = {props.connectWallet} >Vote now</button> */}
+      <Connector/>
     </div>
   </div>
 </div>
